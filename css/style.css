@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #191C22;
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+.navbar{
+    height: 64px;
+}
+
+
+
+.texto{
+    float: left;
+    margin-top: 110px;
+    margin-left: 150px;
+    width: 350px;
+    height: 245px;
+}
+
+.texto h1{
+    color: #fff;
+}
+
+.texto p{
+    color: #DF592D;
+}
+
+.imagem img {
+  float: right;
+  margin-top: 50px;
+  margin-right: 250px;
+}
+
+#cards{
+  margin-top: 150px;
+}
+
+.card-1 {
+    text-align: center;
+    clear: both;
+    margin-left: 150px;
+    margin-right: 60px;
+    margin-top: 80px;
+    float: left;
+    width: 190px;
+    height: 254px;
+    border-radius: 30px;
+    background-image: url(/css/img/natacao.png);
+  }
+
+  .card-2 {
+    text-align: center;
+    margin-top: 80px;
+    float: left;
+    width: 190px;
+    height: 254px;
+    border-radius: 30px;
+    background: #e0e0e0 url(/css/img/musculacao.png);
+  }
+
+  .card-3 {
+    text-align: center;
+    margin-left: 60px;
+    margin-top: 80px;
+    float: left;
+    width: 190px;
+    height: 254px;
+    border-radius: 30px;
+    background: #e0e0e0 url(/css/img/zumba.png);
+  }
+
+  .card-4 {
+    text-align: center;
+    margin-left: 60px;
+    margin-top: 80px;
+    float: left;
+    width: 190px;
+    height: 254px;
+    border-radius: 30px;
+    background: #e0e0e0 url(/css/img/yoga.png);
+    margin-bottom: 100px;
+  }
+
+  footer{
+    color: #DF592D;
+    margin-top: 100px;
+  }
+
+  footer p{
+    margin-left: 150px;
+  }
+
+  #app{
+    float: left;
+  }
+
+  #app img{
+    padding: 5px;
+    display: block;
+    margin-left: 150px;
+  }
+
+  .reclamacoes{
+    float: right;
+    margin-right: 230px;
+    text-decoration: none;
+    list-style: none;
+  }
+
+  .reclamacoes a{
+    color: #DF592D;
+
+  }
+
+  .reclamacoes a:hover{
+    color: #fff;
+  }
+
+  @media screen and (max-width: 576.98px) {
+    .logo{
+      margin-left: 125px;
+    }
+
+    .texto{
+      float: left;
+      margin-top: 0px;
+      margin-left: 15px;
+      width: 350px;
+      height: 245px;
+    }
+
+    .navbar{
+      height: 24px;
+  }
+
+    .cards{
+      display: flex;
+      justify-items: center;
+      align-items: center;
+    }
+
+    
+.card-1 {
+  text-align: center;
+  clear: both;
+  margin-left: 125px;
+  margin-right: 60px;
+  margin-top: 80px;
+  width: 190px;
+  height: 254px;
+  border-radius: 30px;
+  background-image: url(/css/img/natacao.png);
+}
+
+.card-2 {
+  text-align: center;
+  margin-top: 80px;
+  margin-left: 125px;
+  width: 190px;
+  height: 254px;
+  border-radius: 30px;
+  background: #e0e0e0 url(/css/img/musculacao.png);
+}
+
+.card-3 {
+  text-align: center;
+  margin-left: 125px;
+  margin-top: 80px;
+  
+  width: 190px;
+  height: 254px;
+  border-radius: 30px;
+  background: #e0e0e0 url(/css/img/zumba.png);
+}
+
+.card-4 {
+  text-align: center;
+  margin-left: 125px;;
+  margin-top: 80px;
+  
+  width: 190px;
+  height: 254px;
+  border-radius: 30px;
+  background: #e0e0e0 url(/css/img/yoga.png);
+  margin-bottom: 100px;
+}
+
+
+  .reclamacoes{
+    border: 1px solid red;
+    margin-left: 185px;
+    float: right;
+    text-decoration: none;
+    list-style: none;
+  }
+
+  .reclamacoes a{
+    color: #DF592D;
+
+  }
+   }
